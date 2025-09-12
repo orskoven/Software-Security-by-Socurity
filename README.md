@@ -154,3 +154,17 @@ Auguste Kerckhoff's principle
 
 - failing securely
 
+
+#### 8. Complete Mediation
+
+- Defence in Depth
+- Monitored and Controlled Access to resources
+- Check Priviledges for every access
+- One way paths
+
+Example: 
+[Fort Knox
+](https://da.wikipedia.org/wiki/Fort_Knox_(gulddepot))
+
+#### [MAC](https://en.wikipedia.org/wiki/Mandatory_access_control) - Mandatory Access Control
+
