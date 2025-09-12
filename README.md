@@ -99,9 +99,13 @@ Govern is important for software security - NIS2 -.
 {
   Type: Zero Day Vulnerability
   Attack Vectors: SQL injection
-  Attacker : Russian-Affiliated Cyber Gang [Cl0p](https://en.wikipedia.org/wiki/Clop_(cyber_gang))
-  Disclosed by:[ Mandiant](https://en.wikipedia.org/wiki/Mandiant)
+  Attacker : Russian-Affiliated Cyber Gang [Cl0p] [1]
+  Disclosed by:[Mandiant] [2]
   Exploit methodes: Attacks conducted through Web shell LEMURLOOT, which impersonates legitimate ASP.NET files and can extract Microsoft Azure Storage Blob data. - wikipedia
-   Impact: more than 2,500 organizations were known to have been impacted as at October 25, 2023, with more than 80 percent of those organizations being US-based. [[emisoft](https://www.emsisoft.com/en/blog/44123/unpacking-the-moveit-breach-statistics-and-analysis/)] 
+   Impact: more than 2,500 organizations were known to have been impacted as at October 25, 2023, with more than 80 percent of those organizations being US-based. [emisoft] [3]
+
 }
 ```
+[1][Cl0p](https://en.wikipedia.org/wiki/Clop_(cyber_gang))
+[2][emisoft](https://www.emsisoft.com/en/blog/44123/unpacking-the-moveit-breach-statistics-and-analysis/)
+[3][mandiant(https://en.wikipedia.org/wiki/Mandiant)
