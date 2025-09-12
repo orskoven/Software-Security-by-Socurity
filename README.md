@@ -89,3 +89,6 @@ Govern is important for software security - NIS2 -.
 5. Database vulnerabitlities / not patched
 6. OS system vulnerabilities / not patched
 7. Third-party components ...
+8.  List goes on
+
+- System security only as strong as the weakest link. 
