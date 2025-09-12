@@ -95,6 +95,8 @@ Govern is important for software security - NIS2 -.
 
 ### [MOVEit](https://en.wikipedia.org/wiki/2023_MOVEit_data_breach)
 
+[CVE](https://nvd.nist.gov/vuln/detail/CVE-2023-34362)
+
 MOVEit is a file transfer platform made by Progress Software Corporation. The platform is used by thousands of governments, financial institutions and other public and private sector bodies all around the world to send and receive information.[emisoft](https://www.emsisoft.com/en/blog/44123/unpacking-the-moveit-breach-statistics-and-analysis/)
 
 ```json
