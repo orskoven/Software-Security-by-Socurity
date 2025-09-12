@@ -139,7 +139,8 @@ Auguste Kerckhoff's principle
 - Limit the amount of information given away
 - Minimize the window of opportunity for an adversary, e.g. limiting time for availability of attack
     
-
-
+- Hijack private email is easy
+- Session hijacking / Session Copying of credentials stored in the browser ( library browsers are vulnerable )
+- Risk Acceptance -> we cannot prevent users from acceptable usage and avoid users from ease of use since this will be tempting to circumvent in an "unsecure" unacceptable way. 
 
 
