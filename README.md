@@ -91,4 +91,17 @@ Govern is important for software security - NIS2 -.
 7. Third-party components ...
 8.  List goes on
 
-- System security only as strong as the weakest link. 
+- System security only as strong as the weakest link.
+
+### [MOVEit](https://en.wikipedia.org/wiki/2023_MOVEit_data_breach)
+
+```json
+{
+  Type: Zero Day Vulnerability
+  Attack Vectors: SQL injection
+  Attacker : Russian-Affiliated Cyber Gang [Cl0p](https://en.wikipedia.org/wiki/Clop_(cyber_gang))
+  Disclosed by:[ Mandiant](https://en.wikipedia.org/wiki/Mandiant)
+  Exploit methodes: Attacks conducted through Web shell LEMURLOOT, which impersonates legitimate ASP.NET files and can extract Microsoft Azure Storage Blob data. - wikipedia
+   Impact: more than 2,500 organizations were known to have been impacted as at October 25, 2023, with more than 80 percent of those organizations being US-based. [[emisoft](https://www.emsisoft.com/en/blog/44123/unpacking-the-moveit-breach-statistics-and-analysis/)] 
+}
+```
