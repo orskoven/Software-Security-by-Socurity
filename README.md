@@ -112,9 +112,9 @@ COST: $165 USD avarage cost per record | TOTAL $15,805,101,015
 
 }
 ```
- - [1][Cl0p](https://en.wikipedia.org/wiki/Clop_(cyber_gang))
- - [2][emisoft](https://www.emsisoft.com/en/blog/44123/unpacking-the-moveit-breach-statistics-and-analysis/)
- - [3][mandiant](https://en.wikipedia.org/wiki/Mandiant)
- - [4] [CVE]https://community.progress.com/s/article/MOVEit-Transfer-Critical-Vulnerability-31May2023
+ - [1](https://en.wikipedia.org/wiki/Clop_(cyber_gang))
+ - [2](https://www.emsisoft.com/en/blog/44123/unpacking-the-moveit-breach-statistics-and-analysis/)
+ - [3](https://en.wikipedia.org/wiki/Mandiant)
+ - [4] [CVE](https://nvd.nist.gov/vuln/detail/CVE-2023-34362)
 
 
