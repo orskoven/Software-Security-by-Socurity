@@ -128,12 +128,17 @@ Auguste Kerckhoff's principle
 
 - "Security of a system should not depend on the secrecy of its protection mechanisms"
 
-##### Least Common Mechanism / Compartmentalisation
+#### 1.  Least Common Mechanism / Compartmentalisation
 
 - Limit shared resources to a minimum.
 - Isolated groups with limited and controlled means of information exchange.
 
 
+#### 2. Minimum Exposure 
+- Reduce external interfaces to a minimum
+- Limit the amount of information given away
+- Minimize the window of opportunity for an adversary, e.g. limiting time for availability of attack
+    
 
 
 
