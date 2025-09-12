@@ -120,3 +120,21 @@ COST: $165 USD avarage cost per record | TOTAL $15,805,101,015
  - [4] [CVE](https://nvd.nist.gov/vuln/detail/CVE-2023-34362)
 
 
+### Privacy By Design
+
+Schroeder Economy of mechanisms
+
+Auguste Kerckhoff's principle
+
+- "Security of a system should not depend on the secrecy of its protection mechanisms"
+
+##### Least Common Mechanism / Compartmentalisation
+
+- Limit shared resources to a minimum.
+- Isolated groups with limited and controlled means of information exchange.
+
+
+
+
+
+
