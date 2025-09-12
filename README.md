@@ -144,3 +144,17 @@ Auguste Kerckhoff's principle
 - Risk Acceptance -> we cannot prevent users from acceptable usage and avoid users from ease of use since this will be tempting to circumvent in an "unsecure" unacceptable way. 
 
 
+#### 3. Least Privilege
+
+- Singleton connections for Database connection.
+
+
+#### 4. Minimum Trust 
+
+- Zero Trust
+
+
+#### 5. Secure, Fail-Safe Defaults
+
+- failing securely
+
