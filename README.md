@@ -43,3 +43,49 @@ How:
   - [Dining Cryptographers Problem](https://en.wikipedia.org/wiki/Dining_cryptographers_problem)
   - [The Integrated Services Digital Network (ISDN)](https://en.wikipedia.org/wiki/ISDN)
   - [Attacks against anonymous communications](https://en.wikipedia.org/wiki/Traffic_analysis)
+
+
+### Verizon Breach Report 2019
+
+Trending 26% stolen records and 40% stolen records. 
+Why? 
+Small security budget -> poor security. 
+
+
+Today:
+Security is currently being more priotorized. 
+Types of initiatives: 
+- Network Perimeter (firewalls)
+- Enterprise Security (blocking malware and not allowing admin rights for most users)
+- physical security(badgning in and out of secure areas)
+
+###### But we still face issues in the software stack. 
+
+BIOS vs. UEFI Boot 
+
+UEFI has been configured to control malware infection by checksum in the boot process.
+
+
+### [Exploit-Db](https://www.exploit-db.com)
+
+🔺Understand the risk of poorly trained developers in security!
+
+Code is being exploited in many different ways. 
+
+🔺C is fast but not secure compared to other programming language. 
+
+✔️ Java - Secure - Scripting since JVM is a software program that runs the Java code makes it more secure.
+
+Govern is important for software security - NIS2 -.
+
+### Attack Vectors
+
+1. Login username and password combination.
+
+   - Software is build for OSINT combination for input about victim, animals, dates, names, children... to guess passwords
+
+3. Webserver vulnerabilties / not patched
+   - [exploitdb](https://www.exploit-db.com)
+5. Database vulnerabitlities / not patched
+6. OS system vulnerabilities / not patched
+7. Third-party components ...
