@@ -155,7 +155,7 @@ Auguste Kerckhoff's principle
 - failing securely
 
 
-#### 8. Complete Mediation
+#### 6. Complete Mediation
 
 - Defence in Depth
 - Monitored and Controlled Access to resources
@@ -168,12 +168,15 @@ Example:
 
 #### [MAC](https://en.wikipedia.org/wiki/Mandatory_access_control) - Mandatory Access Control
 
-#### 9. No Single Point of Failure
+#### 7. No Single Point of Failure
 
 - Seperation of Privileges
 
 
-#### 10. Usability
+#### 8. Usability
 
 - Psychological acceptability
 
+#### 9. Promoting Privacy
+
+- Consider all aspects of users' data in context
