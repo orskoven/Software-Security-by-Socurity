@@ -106,6 +106,6 @@ Govern is important for software security - NIS2 -.
 
 }
 ```
-[1][Cl0p](https://en.wikipedia.org/wiki/Clop_(cyber_gang))
-[2][emisoft](https://www.emsisoft.com/en/blog/44123/unpacking-the-moveit-breach-statistics-and-analysis/)
-[3][mandiant(https://en.wikipedia.org/wiki/Mandiant)
+ - [1][Cl0p](https://en.wikipedia.org/wiki/Clop_(cyber_gang))
+ - [2][emisoft](https://www.emsisoft.com/en/blog/44123/unpacking-the-moveit-breach-statistics-and-analysis/)
+ - [3][mandiant(https://en.wikipedia.org/wiki/Mandiant)
