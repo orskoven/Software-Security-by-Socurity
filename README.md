@@ -105,7 +105,8 @@ MOVEit is a file transfer platform made by Progress Software Corporation. The pl
   Disclosed by:[Mandiant] [2]
   Exploit methodes: Attacks conducted through Web shell LEMURLOOT, which impersonates legitimate ASP.NET files and can extract Microsoft Azure Storage Blob data. - wikipedia
    Impact: more than 2,773  organizations & 95,788,491 individuals were known to have been impacted as at October 25, 2023, with more than 80 percent of those organizations being US-based. [emisoft] [3]
-Impacted individual:  { Maximus: 11.3 , Welltok 10 million, Delta Dental of California and affiliates } 
+Impacted individual:  { Maximus: 11.3 , Welltok 10 million, Delta Dental of California and affiliates }
+Impacted Sectors : { education (39.1 percent), health (20.1 percent), and finance and professional services (13.3 percent) }
 
 }
 ```
