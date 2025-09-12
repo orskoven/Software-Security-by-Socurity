@@ -1,11 +1,7 @@
 # Software Security by Socurity
 
 
-##### 🎥 Watch [SOCURITY](https://www.youtube.com/@Socurity)
-##### 📖 Read [GRC](https://orskoven.github.io/GRC/)
-##### 📖 Read [Software Security](https://github.com/orskoven/Software-Security-by-Socurity/blob/main/README.md)
-##### 📖 Read [Mobile Device Security](https://creators.spotify.com/pod/profile/simon-rskov/episodes/AI--NLP-Event-Stock-Prediction-Data-Cleaning-e2tiptb) 
-##### 🗨️ [Podcast](https://creators.spotify.com/pod/profile/simon-rskov/episodes/AI--NLP-Event-Stock-Prediction-Data-Cleaning-e2tiptb) 
+| 🎥 Watch [SOCURITY](https://www.youtube.com/@Socurity) | 📖 Read [GRC](https://orskoven.github.io/GRC/) | 📖 Read [Software Security](https://github.com/orskoven/Software-Security-by-Socurity/blob/main/README.md) | 📖 Read [Mobile Device Security](https://creators.spotify.com/pod/profile/simon-rskov/episodes/AI--NLP-Event-Stock-Prediction-Data-Cleaning-e2tiptb)  | 🗨️ [Podcast](https://creators.spotify.com/pod/profile/simon-rskov/episodes/AI--NLP-Event-Stock-Prediction-Data-Cleaning-e2tiptb) 
 
 
 
