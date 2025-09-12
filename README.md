@@ -168,3 +168,7 @@ Example:
 
 #### [MAC](https://en.wikipedia.org/wiki/Mandatory_access_control) - Mandatory Access Control
 
+#### 9. No Single Point of Failure
+
+- Seperation of Privileges
+
