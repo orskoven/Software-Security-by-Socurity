@@ -98,8 +98,50 @@ Privacy Risk:
 
  ### 3 Pillars of Software Security
 
- 
+- Risk Management ( IT Governance & Threat Ranking)
+- Touchpoints ( Code Review, Threat Modeling, Penetration Risk, Risk-based security tests, abuse case, security req., security op.)
+- Knowledge (gathering, encapsulating, sharing security knowledge) - Principles - Guidelines - Rules - Vulnerabilities
 
+
+### Defect, Flaw, Bug
+
+##### Defect
+Implementation + Design vuln.
+Dormant
+
+##### Flaw
+- DESIGN ISSUE
+Problem at deeper level usually design
+
+##### Bug
+- CODE ISSUE
+Implementation level
+
+
+### Exercise: Think about Flaws
+
+Five Flaws 
+- No Audit Features
+- No Testing
+- No Session Management
+- No input validation / sanitization
+- Not correctly implenmented design patterns
+- to many dependecies in classes & methodes /functions 
+- no layered defence in depth
+- no proper exeption handling
+- no logs for audit
+- no prober privleged process handling
+
+[Supply Chain Breaches 
+](https://www.sonatype.com/resources/vulnerability-timeline)
+
+###### Lazarous Group / Hidden Cobra ( NORTH KOREA-backed)
+
+```json
+Attack Vector:  Embedding Malware into popular Open Source tools registries[1]
+Attack Surface:  NPM (node package manager) & PyPi (python package installer)
+```
+[1](https://www.sonatype.com/blog/sonatype-uncovers-global-espionage-campaign-in-open-source-ecosystems?_gl=1*gkaze*_up*MQ..*_ga*ODg1OTA4NjM0LjE3NTgyOTQ1MDc.*_ga_2TMM6KZPXQ*czE3NTgyOTQ1MDYkbzEkZzAkdDE3NTgyOTQ1MDYkajYwJGwwJGgw*_ga_3W70E95Z6Q*czE3NTgyOTQ1MDYkbzEkZzAkdDE3NTgyOTQ1MDYkajYwJGwwJGgw*_ga_08HT33J01V*czE3NTgyOTQ1MDYkbzEkZzAkdDE3NTgyOTQ1MDYkajYwJGwwJGgw)
 
 ### Verizon Breach Report 2019
 
