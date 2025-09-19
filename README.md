@@ -68,7 +68,37 @@ Sensitive Household information could be leaked / discloud given billing informa
    This could invouluntary shared with / bought by sellers of housing equipment to target the household.
  - Financial Status of household could be sampled
  - Consumption patterns could be analysed to derive information regarding household attributes (household size, bedtime, dinner time, equipment numbers, type of equipment, effeciency of equipment, age of equipment): These information are senstive to household and could be exploited for manipultation of the customer.
- - Such information should be carefully protected by security measures. 
+ - Such information should be carefully protected by security measures.
+ - Speculation in home invasions / burglers kidnapping children or stealing from elderly people.
+
+### Case Sugar Beats
+
+Danish sugar beet farmers auction: 
+
+Farmers bit on contracts to produce sugar beets (online).
+
+
+Privacy Risk: 
+
+[Farmers bit size and patterns reveals farmer economy.](https://csrc.nist.gov/csrc/media/events/meeting-on-privacy-enhancing-cryptography/documents/toft.pdf)
+
+### [OWASP top 10 privacy Risks](https://owasp.org/www-project-top-10-privacy-risks/)
+
+2021  2014  Title 
+ P1    1     Web Application Vulnerabilities 
+ P2    2     Operator-sided Data Leakage 
+ P3    3     Insufficient Data Breach Response 
+ P4    New   Consent on Everything 
+ P5    5     Non-transparent Policies, Terms and Conditions 
+ P6    4     Insufficient Deletion of User Data 
+ P7    New   Insufficient Data Quality
+ P8    9     Missing or Insufficient Session Expiration 
+ P9    13    Inability of Users to Access and Modify Data 
+ P10   6     Collection of Data Not Required for the User-Consented Purpose
+
+ ### 3 Pillars of Software Security
+
+ 
 
 
 ### Verizon Breach Report 2019
