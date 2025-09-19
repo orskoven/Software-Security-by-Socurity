@@ -5,6 +5,7 @@
 
 
 
+
 ## [Privacy By Design](https://en.wikipedia.org/wiki/Privacy_by_design)
 
 "Privacy by design calls for privacy to be taken into account throughout the whole engineering process. " - [wikipedia ](https://en.wikipedia.org/wiki/Privacy_by_design)
@@ -39,6 +40,35 @@ How:
   - [Dining Cryptographers Problem](https://en.wikipedia.org/wiki/Dining_cryptographers_problem)
   - [The Integrated Services Digital Network (ISDN)](https://en.wikipedia.org/wiki/ISDN)
   - [Attacks against anonymous communications](https://en.wikipedia.org/wiki/Traffic_analysis)
+
+
+## Privacy By Design From Lecture 
+
+- Proactive not reactive
+- Lead with privacy as the default setting
+- Embed Privacy into design
+- Retain full functionality (positive-sum, not zero-sum)
+- Ensure end-2-end security
+- Maintain visibility and transparency
+- Respect user privacy (user-centric)
+
+In general, privacy is should be business and user centric, hence it need to be planned. 
+
+### Case Smart Meters 
+
+Smart Devices that measures the household consumption of energy (power / heat ) have following requirements: 
+
+Billing integrity
+Aggregate statistics availabiltiy 
+Fraudulent actions must be detected
+
+Privacy Risks (Class Exercise): 
+Sensitive Household information could be leaked / discloud given billing information is required from system requirements
+ - Bahvioral patterns can be analysed from leaked information
+   This could invouluntary shared with / bought by sellers of housing equipment to target the household.
+ - Financial Status of household could be sampled
+ - Consumption patterns could be analysed to derive information regarding household attributes (household size, bedtime, dinner time, equipment numbers, type of equipment, effeciency of equipment, age of equipment): These information are senstive to household and could be exploited for manipultation of the customer.
+ - Such information should be carefully protected by security measures. 
 
 
 ### Verizon Breach Report 2019
@@ -180,3 +210,7 @@ Example:
 #### 9. Promoting Privacy
 
 - Consider all aspects of users' data in context
+
+
+### 
+
