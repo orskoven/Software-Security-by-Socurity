@@ -1,4 +1,4 @@
-# Software Security by Socurity
+
 
 
 | 🎥 Watch [SOCURITY](https://www.youtube.com/@Socurity) | 📖 Read [GRC](https://orskoven.github.io/GRC/) | 📖 Read [Software Security](https://github.com/orskoven/Software-Security-by-Socurity/blob/main/README.md) | 📖 Read [Mobile Device Security](https://creators.spotify.com/pod/profile/simon-rskov/episodes/AI--NLP-Event-Stock-Prediction-Data-Cleaning-e2tiptb)  | 🗨️ [Podcast](https://creators.spotify.com/pod/profile/simon-rskov/episodes/AI--NLP-Event-Stock-Prediction-Data-Cleaning-e2tiptb) 
@@ -125,6 +125,7 @@ Five Flaws
 - No Testing
 - No Session Management
 - No input validation / sanitization
+[input injection  The cyber threat actors targeted the /mifs/rs/api/v2/ endpoint with HTTP GET requests and used the ?format= parameter to send malicious remote commands,” CISA says.attack   ] (https://www.bleepingcomputer.com/news/security/cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks/)
 - Not correctly implenmented design patterns
 - to many dependecies in classes & methodes /functions 
 - no layered defence in depth
