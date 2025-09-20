@@ -222,6 +222,8 @@ Holds BS in computer science
 
 Components : 
 
+```json
+{
 - Pattern name, classification
 - attack prerequisites
 - description and chain of actions taken
@@ -232,7 +234,8 @@ Components :
 - resources required (IP addresses, tools, time..)
 - solution and mitigations
 - context description (platform, OS, language..)
-
+}
+```
 ###### [CVE](https://www.cve.org)
 ###### [CWE](https://cwe.mitre.org/data/definitions/89.html)
 ###### [ATT&CK](https://attack.mitre.org)
@@ -261,7 +264,59 @@ USE fuzz testing during software QA proces to uncover any surprises, uncover any
 Example instance: "A fuzz test reveals that when data length for a particular field exceeds certain length, the input validation filter fails and lets the user data in unfiltered. This provides an attacker with an injection vector to deliver the malicious payload into the system." [CAPEC](https://capec.mitre.org/data/definitions/28.html)
 ```
 
+### Exercise 2 : [CWE knowledge base](https://cwe.mitre.org/top25/archive/2023/2023_top25_list.html)
 
+a) Look for the weakness referring to path traversal, which ranks number 8, and have a look at the information provided.
+
+[CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')](https://cwe.mitre.org/data/definitions/22.html)
+
+```json
+{
+classification: Path Traversal  
+attack prerequisites: "Access to web application and input fields
+chain of actions: By using special elements such as ".." and "/" separators, attackers can escape outside of the restricted location to access files or directories that are elsewhere on the system. ommon special elements is the "../" sequence"
+related vulnerabilities: directory traversal
+methode of attack: injection 
+attack motivation: altering / stealing information / hijacking / destroctive / espionage / data leak / gaining deeper access 
+attacker skill:
+resources required:
+solution and mitigations:  "Use an "accept known good" input validation strategy, i.e., use a list of acceptable inputs that strictly conform to specifications. Reject any input that does not strictly conform to specifications, or transform it into something that does." -  "However, denylists can be useful for detecting potential attacks or determining which inputs are so malformed that they should be rejected outright." - "If feasible, only allow a single "." character in the filename to avoid weaknesses such as CWE-23, and exclude directory separators such as "/" to avoid CWE-36. Use a list of allowable file extensions, which will help to avoid CWE-434.
+" "Do not rely exclusively on a filtering mechanism that removes potentially dangerous characters. This is equivalent to a denylist, which may be incomplete (CWE-184). For example, filtering "/" is insufficient protection if the filesystem also supports the use of "\" as a directory separator. Another possible error could occur when the filtering is applied in a way that still produces dangerous data (CWE-182). For example, if "../" sequences are removed from the ".../...//" string in a sequential fashion, two instances of "../" would be removed from the original string, but the remaining characters would still form the "../" string."
+context description:
+Detection methodes : Automated Static Analysis, Manual Static Analysis, Automated Static Analysis - Binary or Bytecode,  
+}
+```
+
+b) List some of the mitigation mechanisms suggested.
+c) How can this vulnerability be detected?
+
+
+### Exercise 3: CVE knowledge base 
+
+Think about your own dependencies in your daily life and look at the software you
+depend on. How many vulnerabilities and CVEs are for that? Find flaws or problems on
+that, even if they were in older versions of the software and there are none (so far ;) )
+in the version you’re currently running.
+
+
+## Software Focused threat modeling
+
+- Focuses on the system
+- Build & Deployment of software is in the scope
+- Modeling, architecture, UML diagrams, APIs to find threats
+
+1. Data-Flow Diagram
+2. Identify Threats
+3. Adress Threats
+4. Validation
+
+## DFDS
+<img width="379" height="249" alt="Screenshot 2025-09-20 at 16 24 30" src="https://github.com/user-attachments/assets/0b627450-bf54-4ac0-bdb3-9dadd106e179" />
+<img width="691" height="295" alt="Screenshot 2025-09-20 at 16 24 42" src="https://github.com/user-attachments/assets/17456f67-a05b-482e-8a2e-9a9041610be6" />
+<img width="458" height="326" alt="Screenshot 2025-09-20 at 16 25 32" src="https://github.com/user-attachments/assets/ee51b777-d8c7-4320-a181-fa0d579c289b" />
+<img width="423" height="184" alt="Screenshot 2025-09-20 at 16 25 38" src="https://github.com/user-attachments/assets/e003c79b-ca16-4918-a923-857613e4f540" />
+
+Circle 
 
 
 ### Verizon Breach Report 2019
