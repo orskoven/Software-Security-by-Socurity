@@ -149,6 +149,121 @@ Attack Surface:  NPM (node package manager) & PyPi (python package installer)
 ```
 [1](https://www.sonatype.com/blog/sonatype-uncovers-global-espionage-campaign-in-open-source-ecosystems?_gl=1*gkaze*_up*MQ..*_ga*ODg1OTA4NjM0LjE3NTgyOTQ1MDc.*_ga_2TMM6KZPXQ*czE3NTgyOTQ1MDYkbzEkZzAkdDE3NTgyOTQ1MDYkajYwJGwwJGgw*_ga_3W70E95Z6Q*czE3NTgyOTQ1MDYkbzEkZzAkdDE3NTgyOTQ1MDYkajYwJGwwJGgw*_ga_08HT33J01V*czE3NTgyOTQ1MDYkbzEkZzAkdDE3NTgyOTQ1MDYkajYwJGwwJGgw)
 
+
+### Flaws VS. Bugs
+
+Security Design Flaws:
+- are spotted with threat modelling/ secure architecture reviews.
+
+Security Coding Bugs:
+- Following secure coding practices lead to better security.
+
+
+## [Threat Modelling](https://www.threatmodelingmanifesto.org)
+
+- Continous process
+- As early as possible in design process
+- #1 Rank by [NIST](https://www.nist.gov/itl/executive-order-improving-nations-cybersecurity/recommended-minimum-standard-vendor-or-developer) in sofware verification process
+- Perform threat modelling more than once:
+   1. When developing new capabilities
+   2. capturing new threats
+   3. improve modelling
+  
+    [Threats] <identify-> [Requirements] compliance--><- [Mitigations]
+        |__________________<-->________________|
+
+
+<img width="614" height="249" alt="Screenshot 2025-09-20 at 07 05 07" src="https://github.com/user-attachments/assets/b4b26ca4-4751-463e-9fd4-cd35d7431cb3" />
+
+## Threat modelling Strategies
+
+1. Brainstorm
+2. Focus on assets
+3. Focus on attackers
+4. Focus on software
+
+
+### Asset-Focused Threat Modelling
+
+"Providing a sufficient level of security for our assets of interest against certain classes of threats" 
+
+### Data Assets 
+ - Secrets - API keys, encryption keys, passwords
+ - Restricted - Customer data, Customers PII
+ - Confidential, Internal - SW architectural diagrams, emails, production data 
+ - Public - app features, press releases, whitepapers
+
+### Persona non Grata (PnG) threat modeling
+
+- Using Personas attacker model to identify potential attackers
+- Looking for motivation, skills, background and perspective in attacker personas.
+
+#### Example: 
+
+```json
+Lorrin Smith Bates - Insider Threat
+Personal Gain : Intense dislike of her employer
+Holds BS in computer science
+3 years as database admin.
+
+```
+
+
+## What can "real" attackers do (Knowledge in 3-Pillar)? 
+
+- Identify the likelihood and impact of attacks
+- Take effective steps to mitigate attacks
+- Describe techniques of attackers
+- Similarity to software design patterns
+- Applies Problem - Solution paradigm but destructive
+- COMMON ATTACK PATTERN ENUMERATION AND CLASSIFICATION ([CAPEC](https://capec.mitre.org))
+
+### Attack Patterns: 
+
+Components : 
+
+- Pattern name, classification
+- attack prerequisites
+- description and chain of actions taken
+- related vulnerabilities, weaknesses
+- methode of attack ( malicious data, entry, protocol corruption..)
+- attack motivation: what is the attacker trying to achieve?
+- attacker skill of knowledge required to execute such an attack
+- resources required (IP addresses, tools, time..)
+- solution and mitigations
+- context description (platform, OS, language..)
+
+###### [CVE](https://www.cve.org)
+###### [CWE](https://cwe.mitre.org/data/definitions/89.html)
+###### [ATT&CK](https://attack.mitre.org)
+###### [D3FEND](https://d3fend.mitre.org)
+
+
+### Exercise 1: CAPEC Attack Patterns FUZZING ATTACKS
+
+a ) What are they? 
+b ) What kind of tools or software are used to conduct these kinds of attacks?
+c ) How are they being mitigated? 
+
+[CAPEC-28: Fuzzing](https://capec.mitre.org/data/definitions/28.html)
+
+```json
+Adversary/Attacker : Tries to perform Reconasaince and obtain knwoledge about a system to gain insights on system vulnerabilities.
+Methode of attack: leverages black box testing techniques and analyse assumption about the systems.
+Likelihood: High
+Typical severiy: Medium
+Mechanisms of Attack : Employ Probabilistic Techniques
+Execution Flow: {
+ Explpre: Network sniffing ( WIRESHARK ), Monitor API execution (KTRACE, STRACE, APISpy or other debugging tools., Observe inputs using web inspection tools (OWASP's WebScarab, Paros, TamperData, TamperIE, etc.)
+Indicators: a lot of invalid data is fed to the system (short period of time from same IP)
+Mitigations: Test software for no unintended side effects. Ensure no assumptions about the validity of the data are made.
+USE fuzz testing during software QA proces to uncover any surprises, uncover any assumption or unexpected behavior.
+Example instance: "A fuzz test reveals that when data length for a particular field exceeds certain length, the input validation filter fails and lets the user data in unfiltered. This provides an attacker with an injection vector to deliver the malicious payload into the system." [CAPEC](https://capec.mitre.org/data/definitions/28.html)
+```
+
+
+
+
 ### Verizon Breach Report 2019
 
 Trending 26% stolen records and 40% stolen records. 
