@@ -311,16 +311,70 @@ in the version you’re currently running.
 3. Adress Threats
 4. Validation
 
-## [DFDS](https://www.youtube.com/watch?v=lXTwrAWEzGY)
+## 1. Step  [DFDS](https://www.youtube.com/watch?v=lXTwrAWEzGY)
 
 watch my youtube video with +2,2k views about[ Data flow diagrams](https://www.youtube.com/watch?v=lXTwrAWEzGY)
 <img width="379" height="249" alt="Screenshot 2025-09-20 at 16 24 30" src="https://github.com/user-attachments/assets/0b627450-bf54-4ac0-bdb3-9dadd106e179" />
 <img width="691" height="295" alt="Screenshot 2025-09-20 at 16 24 42" src="https://github.com/user-attachments/assets/17456f67-a05b-482e-8a2e-9a9041610be6" />
 <img width="458" height="326" alt="Screenshot 2025-09-20 at 16 25 32" src="https://github.com/user-attachments/assets/ee51b777-d8c7-4320-a181-fa0d579c289b" />
 <img width="423" height="184" alt="Screenshot 2025-09-20 at 16 25 38" src="https://github.com/user-attachments/assets/e003c79b-ca16-4918-a923-857613e4f540" /<img width="594" height="456" alt="Screenshot 2025-09-20 at 16 39 35" src="https://github.com/user-attachments/assets/96d3f547-9371-44ae-94c3-ade2fc32f4bc" />
->
 
-###
+login vulnerability should look somethind likes this ( according to myself) 
+to check for path-traversal vulnerabilities by adding a process after HTTPS check.
+
+<img width="527" height="298" alt="Screenshot 2025-09-20 at 16 52 53" src="https://github.com/user-attachments/assets/1e7305eb-1424-4376-993e-1f467487eb0b" />
+
+My take is missing input validation, whitelist / acceptlist / rejectlist.
+This could be implementede
+
+## 2. Step STRIDE
+
+- Spoofing <> Authentication
+- Tampering <> Integrity 
+- Repudiation <> Non-repudiation
+- Information Disclosure <> Confidentiality
+- Denial of Service <> Availability
+- Elevation of Privilege <> Autherization
+
+
+### Apply Stride to each element in DFD
+
+STRIDE Diagram
+<img width="393" height="272" alt="Screenshot 2025-09-20 at 16 59 34" src="https://github.com/user-attachments/assets/6b9016e9-6f21-46e8-8c38-f27cbc6c7427" />
+
+Free tools for Threat Modeling
+● OWASP Threat Dragon Project
+● Threagile – agile threat modeling
+● Regular whiteboards ;)
+● Mind-mapping diagramming tools like FreeMind
+● Microsoft Threat Modeling Tool
+● ThreatSpec: developers and sec. engineers write threat specifications alongside
+code
+● Mozilla SeaSponge : browser-based graphical threat modeling tool
+● Pytm: a pythonic framework for threat modeling
+
+Commercial Tools for Threat Modeling
+● Microsoft Visio, ConceptDraw Pro
+● PTA Technologies
+● Amenaza SecuriTree
+● IriusRisk by Continuum Security
+● Security Compass SD Elements
+● Isograph
+
+Elevation of Privilege (EoP) card game
+● Card deck
+● Online game
+● Presentation of the game at Black Hat USA 2010
+(Youtube video)
+● Another video with an example on how to play the
+game
+● Some privacy variants:
+○ Elevation of privacy
+○ Privacy by design can be entertaining
+
+
+
+
 
 
 
