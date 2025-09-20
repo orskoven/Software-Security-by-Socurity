@@ -121,17 +121,22 @@ Implementation level
 ### Exercise: Think about Flaws
 
 Five Flaws 
+- web application vulnerabilities
+  3rd party open source dev tools (npm, PyPI)
+  This is being heavily exploited by Advanced Persitent Threats
+  [Espionage in Open source malware - Lazarous Group](https://www.sonatype.com/blog/sonatype-uncovers-global-espionage-campaign-in-open-source-ecosystems?_gl=1*2ni3d9*_up*MQ..*_ga*ODg1OTA4NjM0LjE3NTgyOTQ1MDc.*_ga_2TMM6KZPXQ*czE3NTgyOTQ1MDYkbzEkZzAkdDE3NTgyOTQ1MDYkajYwJGwwJGgw*_ga_3W70E95Z6Q*czE3NTgyOTQ1MDYkbzEkZzAkdDE3NTgyOTQ1MDYkajYwJGwwJGgw*_ga_08HT33J01V*czE3NTgyOTQ1MDYkbzEkZzAkdDE3NTgyOTQ1MDYkajYwJGwwJGgw)
 - No Audit Features
 - No Testing
 - No Session Management
 - No input validation / sanitization
-[input injection  The cyber threat actors targeted the /mifs/rs/api/v2/ endpoint with HTTP GET requests and used the ?format= parameter to send malicious remote commands,” CISA says.attack   ] (https://www.bleepingcomputer.com/news/security/cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks/)
+[input injection  The cyber threat actors targeted the /mifs/rs/api/v2/ endpoint with HTTP GET requests and used the ?format= parameter to send malicious remote commands,” CISA says.attack   ](https://www.bleepingcomputer.com/news/security/cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks/)
 - Not correctly implenmented design patterns
 - to many dependecies in classes & methodes /functions 
 - no layered defence in depth
 - no proper exeption handling
 - no logs for audit
 - no prober privleged process handling
+- 
 
 [Supply Chain Breaches 
 ](https://www.sonatype.com/resources/vulnerability-timeline)
