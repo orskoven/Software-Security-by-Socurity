@@ -310,7 +310,9 @@ in the version you’re currently running.
 3. Adress Threats
 4. Validation
 
-## DFDS
+## [DFDS](https://www.youtube.com/watch?v=lXTwrAWEzGY)
+
+watch my youtube video with +2,2k views about[ Data flow diagrams](https://www.youtube.com/watch?v=lXTwrAWEzGY)
 <img width="379" height="249" alt="Screenshot 2025-09-20 at 16 24 30" src="https://github.com/user-attachments/assets/0b627450-bf54-4ac0-bdb3-9dadd106e179" />
 <img width="691" height="295" alt="Screenshot 2025-09-20 at 16 24 42" src="https://github.com/user-attachments/assets/17456f67-a05b-482e-8a2e-9a9041610be6" />
 <img width="458" height="326" alt="Screenshot 2025-09-20 at 16 25 32" src="https://github.com/user-attachments/assets/ee51b777-d8c7-4320-a181-fa0d579c289b" />
