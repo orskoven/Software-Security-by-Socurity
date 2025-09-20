@@ -3,7 +3,8 @@
 
 | 🎥 Watch [SOCURITY](https://www.youtube.com/@Socurity) | 📖 Read [GRC](https://orskoven.github.io/GRC/) | 📖 Read [Software Security](https://github.com/orskoven/Software-Security-by-Socurity/blob/main/README.md) | 📖 Read [Mobile Device Security](https://creators.spotify.com/pod/profile/simon-rskov/episodes/AI--NLP-Event-Stock-Prediction-Data-Cleaning-e2tiptb)  | 🗨️ [Podcast](https://creators.spotify.com/pod/profile/simon-rskov/episodes/AI--NLP-Event-Stock-Prediction-Data-Cleaning-e2tiptb) 
 
-
+Litterature:
+[ONLINE VERSION of BUILDING SOFTWARE SECURITY IN by Gary McGraw](https://archive.org/details/softwaresecurity0000mcgr/page/n5/mode/1up) 
 
 
 ## [Privacy By Design](https://en.wikipedia.org/wiki/Privacy_by_design)
@@ -316,9 +317,11 @@ watch my youtube video with +2,2k views about[ Data flow diagrams](https://www.y
 <img width="379" height="249" alt="Screenshot 2025-09-20 at 16 24 30" src="https://github.com/user-attachments/assets/0b627450-bf54-4ac0-bdb3-9dadd106e179" />
 <img width="691" height="295" alt="Screenshot 2025-09-20 at 16 24 42" src="https://github.com/user-attachments/assets/17456f67-a05b-482e-8a2e-9a9041610be6" />
 <img width="458" height="326" alt="Screenshot 2025-09-20 at 16 25 32" src="https://github.com/user-attachments/assets/ee51b777-d8c7-4320-a181-fa0d579c289b" />
-<img width="423" height="184" alt="Screenshot 2025-09-20 at 16 25 38" src="https://github.com/user-attachments/assets/e003c79b-ca16-4918-a923-857613e4f540" />
+<img width="423" height="184" alt="Screenshot 2025-09-20 at 16 25 38" src="https://github.com/user-attachments/assets/e003c79b-ca16-4918-a923-857613e4f540" /<img width="594" height="456" alt="Screenshot 2025-09-20 at 16 39 35" src="https://github.com/user-attachments/assets/96d3f547-9371-44ae-94c3-ade2fc32f4bc" />
+>
 
-Circle 
+###
+
 
 
 ### Verizon Breach Report 2019
