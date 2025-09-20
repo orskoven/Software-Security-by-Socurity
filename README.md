@@ -129,7 +129,7 @@ Five Flaws
 - No Testing
 - No Session Management
 - No input validation / sanitization
-[input injection  The cyber threat actors targeted the /mifs/rs/api/v2/ endpoint with HTTP GET requests and used the ?format= parameter to send malicious remote commands,” CISA says.attack   ](https://www.bleepingcomputer.com/news/security/cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks/)
+[input injection  The cyber threat actors targeted the /mifs/rs/api/v2/ endpoint with HTTP GET requests and used the ?format= parameter to send malicious remote commands,” [CISA](https://www.cisa.gov/news-events/analysis-reports/ar25-261a) 
 - Not correctly implenmented design patterns
 - to many dependecies in classes & methodes /functions 
 - no layered defence in depth
